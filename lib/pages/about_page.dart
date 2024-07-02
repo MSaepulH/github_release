@@ -50,7 +50,7 @@ class AboutPage extends StatelessWidget {
                 // Gambar Profil
                 const CircleAvatar(
                   radius: 100,
-                  backgroundImage: AssetImage("assets/images/mahes.jpg"), // Path to your profile picture
+                  backgroundImage: AssetImage("assets/images/Msaepul.jpg"), // Path to your profile picture
                   backgroundColor: Colors.white, // Warna latar belakang jika gambar tidak dimuat
                 ),
                 const SizedBox(height: 20),
