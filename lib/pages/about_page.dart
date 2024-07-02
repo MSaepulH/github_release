@@ -57,7 +57,7 @@ class AboutPage extends StatelessWidget {
                 
                 // Nama
                 Text(
-                  "Mahesa Al Zidane Putra Fedy",
+                  "Muhamad saepul hidayat",
                   style: TextStyle(
                     fontSize: 28,
                     fontWeight: FontWeight.bold,
@@ -96,14 +96,14 @@ class AboutPage extends StatelessWidget {
                     child: Column(
                       children: [
                         InkWell(
-                          onTap: () => _launchURL('tel:+6285223648622'),
+                          onTap: () => _launchURL('tel:+6282126690009'),
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: const [
                               Icon(Icons.phone, size: 20, color: Colors.blue),
                               SizedBox(width: 10),
                               Text(
-                                "+6285223648622",
+                                "+6282126690009",
                                 style: TextStyle(fontSize: 16, color: Colors.black),
                               ),
                             ],
@@ -111,14 +111,14 @@ class AboutPage extends StatelessWidget {
                         ),
                         const SizedBox(height: 10),
                         InkWell(
-                          onTap: () => _launchURL('mailto:2106166@itg.ac.id'),
+                          onTap: () => _launchURL('mailto:2106173@itg.ac.id'),
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: const [
                               Icon(Icons.mail, size: 20, color: Colors.red),
                               SizedBox(width: 10),
                               Text(
-                                "2106166@itg.ac.id",
+                                "2106173@itg.ac.id",
                                 style: TextStyle(fontSize: 16, color: Colors.black),
                               ),
                             ],
@@ -131,7 +131,7 @@ class AboutPage extends StatelessWidget {
                             Icon(Icons.location_on, size: 20, color: Colors.green),
                             SizedBox(width: 10),
                             Text(
-                              "Jayaraga, Garut",
+                              "Bayongbong, Garut",
                               style: TextStyle(fontSize: 16, color: Colors.black),
                             ),
                           ],
